@@ -1,0 +1,40 @@
+.webLogo{
+    position: absolute;
+    left: 1%;
+    top: 1%;
+}
+
+#map_img_div{
+    box-shadow: inset 5px 5px 50px 10px rgba(52, 52, 52, 0.638);
+}
+
+#map_img{
+    position: relative;
+    z-index: -2;
+}
+
+#data_card{
+    height: 150px;
+    width: 250px;
+    background-color: white;
+    box-shadow: 0 0 50px 1px rgba(36, 36, 36, 0.081);
+}
+
+/* Tomtom css */
+#map {
+	height: 500px;
+	width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+	#map {
+		height: 300px;
+	}
+}
+
+#marker {
+  background-image: url('/wp-content/uploads/2021/04/copywriter-logo-dark.svg');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+}
